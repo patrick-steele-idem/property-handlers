@@ -1,0 +1,26 @@
+{
+  "name": "property-handlers",
+  "version": "0.1.0",
+  "description": "Utility for mapping object properties to handler functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/patrick-steele-idem/property-handlers.git"
+  },
+  "keywords": [
+    "utlity",
+    "object",
+    "properties",
+    "handler",
+    "functions"
+  ],
+  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrick-steele-idem/property-handlers/issues"
+  },
+  "homepage": "https://github.com/patrick-steele-idem/property-handlers"
+}
