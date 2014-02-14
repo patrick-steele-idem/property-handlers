@@ -4,7 +4,7 @@ function removeDashes(str) {
     });
 }
 
-module.exports = function invokeHandlers(config, handlers, errorMessage) {
+module.exports = function invokeHandlers(config, handlers, path) {
     function error(message, cause) {
         if (cause) {
             if (cause.__propertyHandlers) {
@@ -14,8 +14,8 @@ module.exports = function invokeHandlers(config, handlers, errorMessage) {
             message += '. Cause: ' + (cause.stack || cause);
         }
 
-        if (errorMessage) {
-            messsage = errorMessage + ': ' + message;
+        if (path) {
+            message = 'Error while handling properties for "' + path + '": ' + message;
         }
 
         var e = new Error(message);
