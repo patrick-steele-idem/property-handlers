@@ -1,6 +1,6 @@
 {
   "name": "property-handlers",
-  "version": "0.1.0",
+  "version": "0.1.0-beta",
   "description": "Utility for mapping object properties to handler functions",
   "main": "index.js",
   "scripts": {
