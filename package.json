@@ -2,9 +2,9 @@
   "name": "property-handlers",
   "version": "0.1.0-beta",
   "description": "Utility for mapping object properties to handler functions",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha --ui bdd --reporter spec ./test && node_modules/.bin/jshint lib"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/patrick-steele-idem/property-handlers/issues"
   },
-  "homepage": "https://github.com/patrick-steele-idem/property-handlers"
+  "homepage": "https://github.com/patrick-steele-idem/property-handlers",
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "chai": "~1.9.0",
+    "jshint": "~2.4.4"
+  }
 }
