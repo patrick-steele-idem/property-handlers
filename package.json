@@ -1,7 +1,6 @@
 {
     "path": "/Users/psteeleidem/development/github/patrick-steele-idem/property-handlers/package.json",
     "name": "property-handlers",
-    "version": "0.2.0-beta",
     "description": "Utility for mapping object properties to handler functions",
     "main": "lib/index.js",
     "scripts": {
@@ -28,5 +27,6 @@
         "mocha": "~1.17.1",
         "chai": "~1.9.0",
         "jshint": "~2.4.4"
-    }   
+    },
+    "version": "0.2.1-beta"
 }
